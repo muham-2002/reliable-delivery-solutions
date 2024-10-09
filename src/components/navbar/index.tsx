@@ -41,7 +41,7 @@ export default function Navbar() {
                             height={50}
                             className="rounded-lg w-auto h-14 object-cover"
                         />
-                        <span className="text-xl font-bold text-gray-900 hidden sm:block">Reliable Delivery Solutions</span>
+                        <span className="text-xl font-bold text-gray-900 hidden sm:block">Reliable Delivery Solutions1</span>
                     </Link>
                     <nav className={`
                         ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}
