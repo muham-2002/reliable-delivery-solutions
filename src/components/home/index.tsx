@@ -78,7 +78,7 @@ export default function LandingPage() {
                   alt="Delivery in action"
                   width={600}
                   height={400}
-                  className="rounded-lg shadow-md w-full h-[450px]"
+                  className="rounded-lg shadow-md w-full"
                 />
               </div>
               <div className="md:w-1/2 md:pl-8">
