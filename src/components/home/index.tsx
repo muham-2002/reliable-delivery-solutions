@@ -57,24 +57,6 @@ export default function LandingPage() {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <header className="bg-white shadow-sm sticky top-0 z-50">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <Link href="/" className="flex items-center space-x-2">
-            <Truck className="h-8 w-8 text-blue-600" />
-            <span className="text-xl font-bold text-gray-900">Reliable Delivery Solutions1</span>
-          </Link>
-          <nav className="hidden md:flex space-x-4">
-            <Link href="#" className="text-gray-600 hover:text-blue-600">Home</Link>
-            <Link href="#about" className="text-gray-600 hover:text-blue-600">About Us</Link>
-            <Link href="#founder" className="text-gray-600 hover:text-blue-600">Our Founder</Link>
-            <Link href="#services" className="text-gray-600 hover:text-blue-600">Services</Link>
-            <Link href="#quote" className="text-gray-600 hover:text-blue-600">Get a Quote</Link>
-            <Link href="#testimonials" className="text-gray-600 hover:text-blue-600">Testimonials</Link>
-          </nav>
-          <Button className="md:hidden">Menu</Button>
-        </div>
-      </header>
-
       <main className="flex-grow">
         <section className="bg-blue-600 text-white py-20">
           <div className="container mx-auto px-4 text-center">
@@ -92,11 +74,11 @@ export default function LandingPage() {
             <div className="flex flex-col md:flex-row items-center justify-between">
               <div className="md:w-1/2 mb-8 md:mb-0">
                 <Image
-                  src="/placeholder.svg"
+                  src="/aboutus.jpg"
                   alt="Delivery in action"
                   width={600}
                   height={400}
-                  className="rounded-lg shadow-md"
+                  className="rounded-lg shadow-md w-full h-[450px]"
                 />
               </div>
               <div className="md:w-1/2 md:pl-8">
@@ -135,11 +117,11 @@ export default function LandingPage() {
             <div className="flex flex-col md:flex-row items-center justify-between">
               <div className="md:w-1/3 mb-8 md:mb-0">
                 <Image
-                  src="/placeholder.svg"
+                  src="/founder.jpg"
                   alt="Eli Rozen, Founder of Reliable Delivery Solutions1"
                   width={300}
                   height={400}
-                  className="rounded-lg shadow-md mx-auto"
+                  className="rounded-lg shadow-md mx-auto w-auto h-[400px] object-contain"
                 />
               </div>
               <div className="md:w-2/3 md:pl-8">
